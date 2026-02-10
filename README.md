@@ -41,12 +41,34 @@ Each project comes with:
 📍 **Games & Fun Projects**  
 📍 **Simple GUI Apps (Tkinter)**  
 
-_💡 [Click here to view the full project list](#)_  
+_Project list: see `PROJECTS.md`._  
 
 ---
 
-Run a project
-python project_name.py
+## Project Structure
+Projects live under `projects/` using numeric folders. Each project has a `main.py` entrypoint and optional `README.md`.
+
+Template: `projects/_template/`
+
+Example:
+```text
+projects/001/main.py
+projects/012/main.py
+```
+
+## Run a Project
+```bash
+python projects/001/main.py
+```
+
+## Run the Launcher
+```bash
+python cli.py
+```
+
+## Quick Project List
+See `PROJECTS.md` for the full index. The current projects are:
+001, 002, 003, 004, 005, 006, 007, 008, 009, 010, 011, 012, 013, 014, 015
 
  Modify & Experiment – Feel free to tweak the code and improve it!
 
