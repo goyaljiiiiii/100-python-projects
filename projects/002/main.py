@@ -1,3 +1,4 @@
+print("Project 002 - Simple Calculator")
 # This is file number 2- simple calculator
 
 num1=input("Enter the first number: ")

@@ -41,7 +41,7 @@ Each project comes with:
 📍 **Games & Fun Projects**  
 📍 **Simple GUI Apps (Tkinter)**  
 
-_Project list: see `PROJECTS.md`._  
+_Projects are organized by number under `projects/`._  
 
 ---
 
@@ -56,18 +56,20 @@ projects/001/main.py
 projects/012/main.py
 ```
 
-## Run a Project
+## Run the Projects
+1. Start the launcher:
+```bash
+python cli.py
+```
+2. Enter a project number (e.g., `001`, `002`) when prompted.
+
+## Run a Project Directly
 ```bash
 python projects/001/main.py
 ```
 
-## Run the Launcher
-```bash
-python cli.py
-```
-
 ## Quick Project List
-See `PROJECTS.md` for the full index. The current projects are:
+Current projects:
 001, 002, 003, 004, 005, 006, 007, 008, 009, 010, 011, 012, 013, 014, 015
 
  Modify & Experiment – Feel free to tweak the code and improve it!

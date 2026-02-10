@@ -1,3 +1,4 @@
+print("Project 015 - Restaurant Order")
 foods = ["pizza", "burger", "fries", "chicken", "chips"]
 prices = [2.00, 3.00, 1.50, 4.00, 1.00]
 user_order = []

@@ -44,20 +44,13 @@ def _discover_projects():
     return projects
 
 
-def _print_menu(projects, names):
-    print("\n=== 100 Python Projects Launcher ===")
-    for proj in projects:
-        num = proj["num"]
-        name = names.get(num, {}).get("name", f"Project {num}")
-        print(f"{num}. {name}")
-    print("q. Quit")
-
-
 def _run_project(main_path: Path):
     try:
         subprocess.run([sys.executable, str(main_path)], check=False)
     except KeyboardInterrupt:
         print("\nProject interrupted. Returning to launcher...")
+    finally:
+        input("\nPress Enter to return to the launcher...")
 
 
 def main():
@@ -68,23 +61,27 @@ def main():
         return
 
     while True:
-        _print_menu(projects, names)
-        choice = input("\nSelect a project number (or q to quit): ").strip().lower()
+        print("\n=== 100 Python Projects Launcher ===")
+        print("Type a project number (001-100) or q to quit.")
+        choice = input("Run project: ").strip().lower()
         if choice in {"q", "quit", "exit"}:
             print("Goodbye!")
             return
 
         # normalize choice (allow 1 -> 001 if exists)
         match = None
+        normalized = choice.zfill(3) if choice.isdigit() else choice
         for proj in projects:
-            if choice == proj["num"] or choice.zfill(3) == proj["num"]:
+            if normalized == proj["num"]:
                 match = proj
                 break
 
         if not match:
-            print("Invalid selection. Try again.")
+            print("Project not found. Try another number.")
             continue
-
+        num = match["num"]
+        name = names.get(num, {}).get("name", f"Project {num}")
+        print(f"\nRunning {num} - {name}...\n")
         _run_project(match["main"])
 
 

@@ -1,3 +1,4 @@
+print("Project 005 - Factorial Calculator")
 # This is file number 5-factorial calculator
 
 number = int(input("Enter a number: "))

@@ -1,3 +1,4 @@
+print("Project 012 - Boot Menu Simulator")
 import time
 import os
 

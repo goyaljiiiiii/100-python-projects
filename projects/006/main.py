@@ -1,3 +1,4 @@
+print("Project 006 - Fibonacci Series Generator")
 # This is file number 5-Fibonacci Series Generator
 
 first_num = 0

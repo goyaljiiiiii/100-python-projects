@@ -1,3 +1,4 @@
+print("Project 013 - Slot Machine")
 import random
 
 # Symbols for the slot machine

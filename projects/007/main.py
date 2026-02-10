@@ -1,3 +1,4 @@
+print("Project 007 - Prime Numbers in Range")
 # This is file number 5- Prime number checker in a given range
 
 user_input = int(input("Enter the range: "))  # Get the range
