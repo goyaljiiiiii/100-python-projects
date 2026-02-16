@@ -70,7 +70,7 @@ python projects/001/main.py
 
 ## Quick Project List
 Current projects:
-001, 002, 003, 004, 005, 006, 007, 008, 009, 010, 011, 012, 013, 014, 015
+001, 002, 003, 004, 005, 006, 007, 008, 009, 010, 011, 012, 013, 014, 015, 016, 017, 018, 019
 
  Modify & Experiment – Feel free to tweak the code and improve it!
 

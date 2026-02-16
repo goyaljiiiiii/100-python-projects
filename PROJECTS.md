@@ -19,6 +19,10 @@ This file lists all projects currently in the repository. Each project lives und
 | 013 | Slot Machine (CLI) | `projects/013/` | Play a simple slot machine game in the terminal. |
 | 014 | Bank Account (CLI) | `projects/014/` | Simulate a simple bank account with deposit/withdraw actions. |
 | 015 | Restaurant Order (CLI) | `projects/015/` | Select menu items and track a running total. |
+| 016 | Concession Stand Program (CLI) | `projects/016/` | Build a snack/drink order in the terminal and show a final bill. |
+| 017 | Rock Paper Scissors (CLI) | `projects/017/` | Play Rock, Paper, Scissors against the computer in the terminal. |
+| 018 | Word Guess by Category (CLI) | `projects/018/` | Choose a category and guess a random word letter by letter. |
+| 019 | Cafe Order Program (CLI) | `projects/019/` | Choose cafe items and print the final bill in the terminal. |
 
 ## Add New Projects
 
